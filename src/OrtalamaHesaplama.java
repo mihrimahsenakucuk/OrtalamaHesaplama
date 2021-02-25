@@ -17,10 +17,9 @@ public class OrtalamaHesaplama {
         System.out.println("4.sayıyı giriniz");
         int sayi4 = scan.nextInt();
 
-        int toplam = sayi1 + sayi2 + sayi3 + sayi4;
-        double ortalama = toplam / 0.4;
+        double ortalama = sayi1 + sayi2 + sayi3 + sayi4 / 4;
 
-        System.out.println("Sayıların ortamalası: " + (sayi1 + sayi2 + sayi3 + sayi4) / 4);
+        System.out.println("Sayıların ortamalası: " + ortalama );
 
 
     }
